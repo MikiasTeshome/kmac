@@ -11,7 +11,7 @@ const MainSearch = ({show, onClose}) => {
             <div className="sidebar-search-input">
                 <form>
                     <div className="form-search">
-                        <input id="search" className="input-text" placeholder="" type="search"/>
+                        <input id="search" className="input-text" placeholder="" type="search" style={{fontSize:40}}/>
                         <button>
                             <i className="fa fa-search"></i>
                         </button>

@@ -43,7 +43,7 @@ const Header = () => {
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
                                 />
                             </div>
-                            <div className="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
+                            <div className="col-auto col-xl d-flex align-items-center  justify-content-end order-2 order-xl-1">
                                 <div className="menu-column-area d-none d-xl-block position-static">
                                     <NavBar />
                                 </div>
