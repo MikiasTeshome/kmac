@@ -56,14 +56,14 @@ const MobileNavMenu = () => {
                 </li>
                 <li className="has-children">
                     <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Services</span></NavLink>
-                    <span className="menu-toggle"><i className="far fa-angle-down"></i></span>
+                    <span className="menu-toggle" onClick={onClickHandler}><i className="far fa-angle-down"></i></span>
                     <ul className="sub-menu">
                         <li><NavLink to={process.env.PUBLIC_URL + "/work"}><span className="menu-text">Graphic Design</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + `/work-details/1`}><span className="menu-text">Web Development</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + `/work-details/1`}><span className="menu-text">Architectural Design</span></NavLink></li>
                     </ul>
                 </li>
-                <li className="has-children">
+                {/* <li className="has-children">
                     <NavLink to={process.env.PUBLIC_URL + "/work"}><span className="menu-text">Work</span></NavLink>
                     <span className="menu-toggle" onClick={onClickHandler}><i className="far fa-angle-down"></i></span>
                     <ul className="sub-menu">
@@ -79,7 +79,7 @@ const MobileNavMenu = () => {
                         <li><NavLink to={process.env.PUBLIC_URL + "/blog-classic"}><span className="menu-text">Blog Classic</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + `/blog-details/1`}><span className="menu-text">Blog Details</span></NavLink></li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/contact"}><span className="menu-text">Contact Us</span></NavLink>
                 </li>
