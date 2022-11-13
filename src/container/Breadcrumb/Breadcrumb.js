@@ -11,14 +11,14 @@ const Breadcrumb = ({title, content, contentTwo, image}) => {
                     <h1 className="title">{title}</h1>
                 </div>
             </div>
-            <div className="page-breadcrumb position-static">
+            {/* <div className="page-breadcrumb position-static">
                 <div className="container">
                     <ul className="breadcrumb justify-content-center">
                         <li><Link to={process.env.PUBLIC_URL + "/"}>{content}</Link></li>
                         <li className="current">{contentTwo}</li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

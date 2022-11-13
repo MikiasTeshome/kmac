@@ -25,9 +25,9 @@ const NavBar = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Services</span></NavLink>
                     <span className="menu-toggle"><i className="far fa-angle-down"></i></span>
                     <ul className="sub-menu">
-                        <li><NavLink to={process.env.PUBLIC_URL + "/work"}><span className="menu-text">Graphic Design</span></NavLink></li>
-                        <li><NavLink to={process.env.PUBLIC_URL + `/work-details/1`}><span className="menu-text">Web Development</span></NavLink></li>
-                        <li><NavLink to={process.env.PUBLIC_URL + `/work-details/1`}><span className="menu-text">Architectural Design</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Design_services"}><span className="menu-text">Graphic Design</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + `/Web_services`}><span className="menu-text">Web Development</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + `/Architecture_service`}><span className="menu-text">Architectural Design</span></NavLink></li>
                     </ul>
                 </li>
                 {/* <li className="has-children">
